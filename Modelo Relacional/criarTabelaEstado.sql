@@ -9,3 +9,7 @@ create table estado(
   UNIQUE KEY (nome),
   UNIQUE KEY (sigla)
 ); 
+
+
+-- Esse o varchar está dando erro: WARN_DATA_TRUNCATED: Data truncated for column 'regiao' at row 4
+ALTER TABLE estado MODIFY regiao VARCHAR(15);
