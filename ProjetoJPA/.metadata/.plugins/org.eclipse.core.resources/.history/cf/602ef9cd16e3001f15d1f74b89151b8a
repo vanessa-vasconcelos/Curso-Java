@@ -1,0 +1,13 @@
+package teste.muitospramuitos;
+
+import modelo.muitospramuitos.Tio;
+
+public class NovoTioSobrinho {
+
+	public static void main(String[] args) {
+		Tio tia1 = new Tio("Maria");
+		Tio tio2 = new Tio("João");
+		
+		
+	}
+}
